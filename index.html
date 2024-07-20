@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css" integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
@@ -39,8 +39,9 @@
         </section>
         <section class="about-company">
             <div class="container">
+                <h2 class="visually-hidden">About the company</h2>
             <ul class="about-container"> 
-                <li>
+                <li class="about-title-container">
                    <h3 class="about-title">Strategy</h3>
             <p class="about-paragraph">
                 Our goal is to identify the business problem to walk away with the perfect and creative solution.
@@ -77,8 +78,10 @@
                     width="264"
                     height="260"
                 />
+                <div class="team-details-container">
                 <h3 class="team-subtitle">Mark Guerrero</h3>
                 <p class="team-paragraph">Product Designer</p>
+            </div>
                 </li>
                 <li class="team">
                     <img src="./images/FrontendDeveloperTom.jpg"
@@ -86,8 +89,10 @@
                     width="264"
                     height="260"
                 />
+                <div class="team-details-container">
                 <h3 class="team-subtitle">Tom Ford</h3>
                 <p class="team-paragraph">Frontend Developer</p>
+            </div>
                 </li>
                 <li class="team">
                     <img src="./images/MarketingCamila.jpg"
@@ -95,8 +100,10 @@
                     width="264"
                     height="260"
                 />
+                <div class="team-details-container">
                 <h3 class="team-subtitle">Camila Garcia</h3>
                 <p class="team-paragraph">Marketing</p>
+            </div>
                 </li>
                 <li class="team">
                     <img src="./images/UIDesignerDaniel.jpg"
@@ -104,8 +111,10 @@
                     width="264"
                     height="260"
                 />
+                <div class="team-details-container">
                 <h3 class="team-subtitle">Daniel Wilson</h3>
                 <p class="team-paragraph"> UI Designer</p>
+            </div>
                 </li>
             </ul>
         </div>
@@ -114,59 +123,71 @@
             <div class="container">
             <h2 class="portofolio-title">Our Portfolio</h2>
             <ul class="portofolio-container">
-                <li>
+                <li class="portofolio-item-container">
                     <img src="./images/BankingApp.jpg"
                     alt="Banking app photo"
                     width="360"
                     height="300"
                     />
+                    <div class="apps-container">
                     <h3 class="portofolio-item">Banking App</h3>
                     <p class="portofolio-paragraph">App</p>
+                </div>
                 </li>
-                <li>
+                <li class="portofolio-item-container">
                     <img src="./images/CashlessPayment.jpg"
                     alt="Cashless payment photo"
                     width="360"
                     height="300"
                     />
+                    <div class="apps-container">
                     <h3 class="portofolio-item">Cashless Payment</h3>
                     <p class="portofolio-paragraph">Marketing</p>
+                </div>
                 </li>
-                <li>
+                <li class="portofolio-item-container">
                     <img src="./images/MeditationApp.jpg"
                     alt="Meditation app photo"
                     width="360"
                     height="300"
                     />
+                <div class="apps-container">
                     <h3 class="portofolio-item">Meditation App</h3>
                     <p class="portofolio-paragraph">App</p>
+                </div>
                 </li>
-                <li>
+                <li class="portofolio-item-container">
                     <img src="./images/TaxiService.jpg"
                     alt="Taxi service photo"
                     width="360"
                     height="300"
                     />
+                <div class="apps-container">
                     <h3 class="portofolio-item">Taxi Service</h3>
                     <p class="portofolio-paragraph">Marketing</p>
+                </div>
                 </li>
-                <li>
+                <li class="portofolio-item-container">
                     <img src="./images/ScreenIllustrations.jpg"
                     alt="Screen illustrations photo"
                     width="360"
                     height="300"
                     />
+                <div class="apps-container">
                     <h3 class="portofolio-item">Screen Illustrations</h3>
                     <p class="portofolio-paragraph">Design</p>
+                </div>
                 </li>
-                <li>
+                <li class="portofolio-item-container">
                     <img src="./images/OnlineCourses.jpg"
                     alt="Online courses photo"
                     width="360"
                     height="300"
                     />
+                <div class="apps-container">
                     <h3 class="portofolio-item">Online Courses</h3>
                     <p class="portofolio-paragraph">Marketing</p>
+                </div>
                 </li>
             </ul>
         </div>
