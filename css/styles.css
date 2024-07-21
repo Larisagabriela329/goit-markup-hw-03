@@ -374,8 +374,6 @@ text-transform: uppercase;
 text-decoration: none;
 padding-top: 100px;
 padding-left: 156px;
-margin-bottom: 16px; 
-display: inline-block;
 }
 
 .logo-studio-footer {
@@ -385,6 +383,8 @@ font-weight: 700;
 line-height: 21px;
 letter-spacing: 0.03em;
     color: #F4F4FD;
+    margin-bottom: 16px; 
+display: inline-block;
 }
 
 .footer-logo:hover {
