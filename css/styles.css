@@ -348,6 +348,7 @@ color: #434455;
 .footer-section {
     background-color: #2E2F42;
     padding: 100px 0; 
+    
 }
 
 .footer-container {
@@ -358,8 +359,7 @@ gap: 0px;
 opacity: 0px;
 padding: 100px 0;
 margin-bottom: 16px; 
-display: inline-block;
-margin-bottom: 16px; 
+
 }
 
 .footer-logo {
@@ -374,6 +374,8 @@ text-transform: uppercase;
 text-decoration: none;
 padding-top: 100px;
 padding-left: 156px;
+margin-bottom: 16px; 
+display: inline-block;
 }
 
 .logo-studio-footer {
